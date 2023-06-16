@@ -1,0 +1,226 @@
+@media (max-width: 1200px)
+    .container
+        .menu
+            &_link
+                font-size: 13px
+            &_item
+                padding-right: 20px
+    .subheader
+        .xs-visible
+            display: none
+    .promo
+        .promo_header
+            font-size: 50px
+    .causes
+        &_descr
+            width: 150px
+        &_items
+            align-items: flex-start
+    .mobile 
+        &_item
+            width: 290px
+            &_subtitle
+                font-size: 22px
+    .choice
+        padding-top: 57px
+        min-height: 840px
+    .footer
+        &_wrapper > div
+            width: 50%
+            &:nth-child(1)
+                width: 25%
+            &:nth-child(3)
+                width: 25%
+                display: flex 
+                justify-content: flex-end
+        &_mobile
+            display: flex
+            a 
+                margin: 0 3px
+                img 
+                    width: 100%
+@media (max-width: 991px)
+    .container
+        .menu
+            &_link
+                font-size: 20px
+            &_item
+                padding-right: 10px
+    .promo
+        .promo_header
+            font-size: 40px
+    .causes
+        &_items
+            flex-direction: column
+            align-items: center
+        .causes_descr 
+            margin-top: 20px
+            width: 300px
+            height: 170px
+    .mobile 
+        .row
+            margin: 0 -60px
+        &_item
+            width: 250px
+            &_subtitle
+                font-size: 18px
+    .choise 
+        min-height: 800px
+        img
+            width: 100%
+@media (max-width: 768px)
+    .container
+        max-width: 685px
+    .menu
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        top: 0
+        left: -100%
+        width: 50%
+        height: 100vh
+        padding: 20px 15px
+        background-color: rgba(0,0,0, .8)
+        transition: 0.6s all
+        z-index: 90
+        &_active 
+            left: 0
+        &_item 
+            padding-right: 0
+            border: none
+            margin: 10px 0
+        &_link 
+            font-size: 20px
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 26px
+        height: 12px
+        span 
+            display: block 
+            height: 2px
+            width: 100%
+            background-color: #fff 
+            margin-bottom: 2px
+            transition: 0.5s all
+        &_active 
+            span 
+                margin-bottom: -2px 
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+    .xs-hidden
+        display: none
+    .xs-visible 
+        display: block
+    .subheader
+        .row
+            flex-wrap: nowrap
+            margin-left: 20px
+    .causes
+        &_items
+            align-items: center
+        .causes_descr
+            width: 50%
+    .choice
+        min-height: 600px
+        padding: 40px 0
+        img
+            width: 100%
+    .world
+        min-height: 650px
+    .footer
+        &_wrapper
+            flex-wrap: wrap
+        &_wrapper > div
+            width: 100%
+            display: flex
+            justify-content: center
+            margin-bottom: 20px
+            &:nth-child(1)
+                width: 100%
+            &:nth-child(3)
+                width: 100%
+                display: flex 
+                justify-content: center
+@media (max-width: 576px)
+    nav
+        height: 30px
+    header
+        height: 30px
+    .title
+        font-size: 16px
+        margin-top: 15px
+        line-height: 16px
+    .subtitle 
+        font-size: 14px
+        line-height: 21px
+        margin-top: 11px
+    .subheader
+        height: 60px
+        top: 30px       
+        .subheader_link
+            font-size: 12px
+            margin-top:5px
+            left: 320px
+            position: relative
+        .subheader_btn 
+            left: 320px
+            position: relative
+            width: 110px
+            height: 22px
+            font-size: 9px
+            margin-top: 8px
+            &:hover
+                background-image: linear-gradient(to top, $main-color 0%, #4ce2ff 100%)
+    .promo
+        .promo_header
+            font-size: 25px
+        .promo_subheader
+            font-size: 25px
+        .promo_description
+            display: none
+    .causes 
+        padding: 22px 0 36px 0
+        &_items 
+            margin-top: 26px
+        .item_round 
+            width: 100px
+            height: 100px
+        .causes_descr
+            width: 100%
+            margin-top: 27px
+        .descr_header 
+            font-size: 16px
+            text-align: left
+        .descr_subheader 
+            margin-top: 0
+    .choice
+        .choice_descr
+            margin-top: 30px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
